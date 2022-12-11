@@ -6,6 +6,7 @@ mod day02_tests;
 mod day03_tests;
 mod day04_tests;
 mod day05_tests;
+mod day06_tests;
 
 pub fn read_file(path: &str) -> Vec<String> {
     match File::open(path) {
