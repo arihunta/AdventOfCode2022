@@ -72,7 +72,6 @@ pub fn day08_02(mut lines: Vec<String>) -> u32 {
         y_max = max(y_max, y as i32);
     });
 
-    println!("slicon: '{:?}'", slices);
     let mut ans: i32 = -1;
 
     slices.values().for_each(|slice| {
