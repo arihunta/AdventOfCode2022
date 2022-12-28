@@ -52,6 +52,6 @@ fn test_day09_02() {
 
     let result = day09::day09_02(input);
 
-    assert_eq!(301392, result);
+    assert_eq!(2734, result);
 
 }
